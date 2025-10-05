@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+FinanSmart - Aplicativo de Gestão Financeira
+Este é o repositório do FinanSmart, um aplicativo de controle financeiro desenvolvido como parte do Projeto de Bloco da disciplina de Desenvolvimento Front-end com Frameworks. A aplicação foi construída de forma incremental, começando com uma versão web em ReactJS e evoluindo para uma versão mobile com React Native e Expo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Links Importantes:
 
-## Available Scripts
+Versão Mobile (Snack Expo): [Acesse o FinanSmart Mobile aqui](https://snack.expo.dev/@sirllon/projeto-final?platform=android)
 
-In the project directory, you can run:
+Board de Gestão (Notion): [Veja nosso processo Scrum em ação](https://www.notion.so/b4ece348c848401c82552fe1c9d12626?v=c343c4bee72b45b387b2682725e59db7)
 
-### `npm start`
+Principais Funcionalidades
+Gestão de Transações: Funcionalidade completa de CRUD (Criar, Ler, Atualizar, Deletar) para transações financeiras.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dashboard Intuitivo: Visualização rápida do saldo total, com resumo de entradas e saídas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Relatórios com Gráficos: Página de relatórios com um gráfico de pizza para análise visual do fluxo financeiro.
 
-### `npm test`
+Cotações em Tempo Real: Integração com uma API pública para exibir cotações de Dólar e Euro.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Experiência Mobile Nativa: Interface adaptada para mobile com recursos como acesso à câmera, notificações push e gestos (puxar para atualizar e arrastar para o lado).
 
-### `npm run build`
+Exportação de Dados: Funcionalidade para exportar o histórico de transações para um arquivo .csv.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Autenticação: Fluxo de login simulado para proteção das rotas principais.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tecnologias Utilizadas
+Core: ReactJS, React Native, Expo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+UI e Gráficos: react-chartjs-2, react-icons
 
-### `npm run eject`
+Testes: Jest, React Testing Library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Recursos Nativos: Expo Camera, React Native PanResponder
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Armazenamento Local: AsyncStorage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Como Executar o Projeto
+Pré-requisitos
+Node.js e npm (ou Yarn) instalados.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instalação
+Clone o repositório:
 
-## Learn More
+git clone [https://github.com/SIRLLON/Projeto-final.git](https://github.com/SIRLLON/Projeto-final.git)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Navegue até a pasta do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd Projeto-final
 
-### Code Splitting
+Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+Scripts Disponíveis
+npm start: Inicia a aplicação em modo de desenvolvimento. Abra http://localhost:3000 para ver no navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm test: Executa a suíte de testes automatizados com Jest e React Testing Library.
 
-### Making a Progressive Web App
+npm run build: Compila a aplicação para produção na pasta build.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Credenciais de Acesso
+Para testar a aplicação, utilize as seguintes credenciais estáticas:
 
-### Advanced Configuration
+Usuário: teste
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Senha: 1234
